@@ -62,12 +62,84 @@ nav .logo span{
     width: 1872px;
     height:500px;
     display:flex;
-   padding-left: 100px;
+    padding-left: 100px;
 }
 .items{
     width:300px;
     height:400px;
-    background-color: rgb(141, 134, 134);
+    background-color: rgb(221, 221, 221);
     margin-left:40px;
     margin-top:30px;
+    border-radius:10px;
 }
+
+.items img{
+    width:300px;
+    height:200px;
+}
+.items img:hover{
+    width:310px;
+    height:210px;
+    transition:0.5s;
+}
+.products1{
+    display: flex;
+    }
+.items1{
+    text-align: center;
+    margin-top:10px;
+    font-size:25px;
+}
+.items2{
+    font-size:25px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.items button{
+    font-size:18px;
+    margin-left:20px;
+    margin-top:15px;
+    width: 150px;
+    border-radius:20px;
+    background-color: rgb(250, 101, 47);
+    color: white;
+    border:none;
+}
+.items button:hover{
+    background-color:orangered;
+    color: black;
+}
+.items form{
+    margin-top: 30px;
+    margin-left:20px;
+}
+.items select{
+    border: none;
+    outline: none;
+    font-size:25px;
+    margin-left:10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.items select option{
+    font-size:20px;
+}
+.items label{
+    font-size:25px;
+}
+.items input{
+    font-size:18px;
+    margin-left:20px;
+    width: 150px;
+    height:40px;
+    border-radius:20px;
+    margin-top:-10px;
+    word-spacing:2px;
+    background-color: rgb(250, 101, 47);
+    color: white;
+    border:none;
+}
+.items input:hover{
+    background-color:orangered;
+    color: black;
+}
+
