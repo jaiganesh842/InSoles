@@ -1,6 +1,6 @@
 var i = 0;
 var images = [];
-var time = 4000;
+var time = 1000;
 
 images[0]='Images/crocs.jpg'
 images[1]='Images/slippers.jpg'

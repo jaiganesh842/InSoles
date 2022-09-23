@@ -122,6 +122,8 @@ nav .logo span{
 }
 .items select option{
     font-size:20px;
+    background-color: rgb(26, 26, 26);
+    color: white;
 }
 .items label{
     font-size:25px;
@@ -142,4 +144,3 @@ nav .logo span{
     background-color:orangered;
     color: black;
 }
-
