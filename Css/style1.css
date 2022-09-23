@@ -55,6 +55,10 @@ nav .logo span{
     font-size:16px;
     width: 120px;
 }
+.items button:hover{
+    width: 125px;
+    height:33px;
+}
 .items label{
     font-size:20px;
 }
@@ -67,7 +71,14 @@ nav .logo span{
     height:30px;
     margin-left:8px;
 }
+.items input:hover{
+    width: 123px;
+    height:33px;
+}
 .items select option{
     font-size:16px;
+}
+.shopnow{
+    font-size: 40px;
 }
 }

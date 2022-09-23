@@ -62,25 +62,23 @@ nav .logo span{
     width: 1872px;
     height:500px;
     display:flex;
-    padding-left: 100px;
 }
 .items{
-    width:300px;
-    height:400px;
-    background-color: rgb(221, 221, 221);
-    margin-left:40px;
+    width:340px;
+    height:480px;
+    background-color: rgb(242, 248, 248);
+    margin-left:30px;
     margin-top:30px;
     border-radius:10px;
 }
 
 .items img{
-    width:300px;
-    height:220px;
+    width:340px;
+    height:300px;
     border-radius:10px;
 }
 .items img:hover{
-    width:310px;
-    height:230px;
+    height:305px;
     transition:0.5s;
 }
 .products1{
@@ -102,13 +100,15 @@ nav .logo span{
     margin-top:15px;
     width: 150px;
     border-radius:20px;
-    background-color: rgb(250, 101, 47);
-    color: white;
-    border:none;
+    color: rgb(0, 0, 0);
+    
 }
 .items button:hover{
-    background-color:orangered;
-    color: black;
+    background-color:rgb(108, 203, 237);
+    color: rgb(0, 0, 0);
+    width:155px;
+    height:45px;
+    transition:0.5s;
 }
 .items form{
     margin-top: 30px;
@@ -117,7 +117,7 @@ nav .logo span{
 .items select{
     border: none;
     outline: none;
-    font-size:25px;
+    font-size:23px;
     margin-left:10px;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -131,17 +131,23 @@ nav .logo span{
 }
 .items input{
     font-size:18px;
-    margin-left:20px;
+    margin-left:18px;
     width: 150px;
     height:40px;
     border-radius:20px;
     margin-top:-10px;
     word-spacing:5px;
-    background-color: rgb(250, 101, 47);
-    color: white;
-    border:none;
+    color: rgb(0, 0, 0);
 }
 .items input:hover{
-    background-color:orangered;
-    color: black;
+    background-color:rgb(108, 203, 237);
+    color: rgb(0, 0, 0);
+    width:155px;
+    height:45px;
+    transition:0.5s;
+}
+.shopnow{
+    text-align:center;
+    font-size:50px;
+    margin-top:10px;
 }
