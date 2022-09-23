@@ -75,16 +75,17 @@ nav .logo span{
 
 .items img{
     width:300px;
-    height:200px;
+    height:220px;
+    border-radius:10px;
 }
 .items img:hover{
     width:310px;
-    height:210px;
+    height:230px;
     transition:0.5s;
 }
 .products1{
     display: flex;
-    }
+}
 .items1{
     text-align: center;
     margin-top:10px;
@@ -135,7 +136,7 @@ nav .logo span{
     height:40px;
     border-radius:20px;
     margin-top:-10px;
-    word-spacing:2px;
+    word-spacing:5px;
     background-color: rgb(250, 101, 47);
     color: white;
     border:none;

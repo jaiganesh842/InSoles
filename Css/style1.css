@@ -21,10 +21,11 @@ nav .logo span{
     font-size:18px;
 }
 .slider{
-    width: 1495px;
+    width: 1515px;
     height:550px;
 }
 .products{
+    display: flex;
     width: 1515px;
     height:400px;
     padding-left: 10px;
@@ -32,8 +33,41 @@ nav .logo span{
 .items{
     width:250px;
     height:330px;
-    background-color: rgb(141, 134, 134);
+    background-color: rgb(221, 221, 221);
     margin-left:40px;
     margin-top:30px;
+}
+.items img{
+    width:250px;
+    height:180px;
+}
+.items img:hover{
+    width:260px;
+    height:185px;
+}
+.items1{
+    font-size:20px;
+}
+.items2{
+    font-size:20px;
+}
+.items button{
+    font-size:16px;
+    width: 120px;
+}
+.items label{
+    font-size:20px;
+}
+.items select{
+    font-size:20px;
+}
+.items input{
+    font-size:16px;
+    width: 120px;
+    height:30px;
+    margin-left:8px;
+}
+.items select option{
+    font-size:16px;
 }
 }
