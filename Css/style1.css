@@ -29,11 +29,12 @@ nav .logo span{
     width: 1515px;
     height:400px;
     padding-left: 10px;
+    background-color: rgb(0, 0, 0);
 }
 .items{
     width:250px;
     height:330px;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(242, 248, 248);
     margin-left:40px;
     margin-top:30px;
 }
@@ -42,7 +43,6 @@ nav .logo span{
     height:180px;
 }
 .items img:hover{
-    width:260px;
     height:185px;
 }
 .items1{
@@ -87,8 +87,8 @@ nav .logo span{
     margin-left:-150px;
 }
 .circle{
-    width:80px;
-    height:80px;
+    width:70px;
+    height:70px;
     font-size:30px;
 }
 .services1 p{
