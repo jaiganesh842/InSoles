@@ -4,7 +4,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-CREATE TABLE `users` (
+CREATE TABLE `signup` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
@@ -13,11 +13,11 @@ CREATE TABLE `users` (
 
 
 
-ALTER TABLE `users`
+ALTER TABLE `signup`
   ADD PRIMARY KEY (`id`);
 
 
 
-  ALTER TABLE `users`
+  ALTER TABLE `signup`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
