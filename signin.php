@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
 		$sql = "SELECT * FROM signup WHERE email='$email'";
 		$result = mysqli_query($conn, $sql);
 		if (!$result->num_rows > 0) {
-			$sql = "INSERT INTO signup (name, email, password)
+			$sql = "INSERT INTO signup (username, email, password)
 					VALUES ('$username', '$email', '$password')";
 			$result = mysqli_query($conn, $sql);
 			if ($result) {
