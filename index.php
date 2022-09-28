@@ -35,173 +35,76 @@
         <div class="items">
             <img src="./Images/items/product-1.jpg">
             <p class="items1">Nike Downshifter 10</p>
-            <div class="products1">
                 <p class="items2">14,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
+            <form action="">
+                <label>Size</label>
+                <select name="nike10_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="nike10" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/product-2.jpg">
             <p class="items1">Nike Downshifter 11</p>
-            <div class="products1">
                 <p class="items2">6,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
+            <form action="">
+                <label>Size</label>
+                <select name="nike11_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit"  name="nike11" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/product-3.jpg">
             <p class="items1">Nike Revolution 5</p>
-            <div class="products1">
                 <p class="items2">21,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="nike5_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="nike5" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/product-4.jpg">
             <p class="items1">Nike Revolution 6</p>
-            <div class="products1">
                 <p class="items2">8,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="nike6_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="nike6" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/product-5.jpg">
             <p class="items1">Nike Downshifter 12</p>
-            <div class="products1">
                 <p class="items2">12,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="nike12_size" >
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
-            </form>
-        </div>
-    </div>
-    <div class="products">
-        <div class="items">
-            <img src="./Images/items/product-6.jpg">
-            <p class="items1">Renew Retaliation TR 3</p>
-            <div class="products1">
-                <p class="items2">10,850 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
-                    <option value="1">6</option>
-                    <option value="1">7</option>
-                    <option value="1">8</option>
-                    <option value="1">9</option>
-                </select>
-                <input type="submit" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-7.jpg">
-            <p class="items1">Nike Legend Essential 2</p>
-            <div class="products1">
-                <p class="items2">9,999 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
-                    <option value="1">6</option>
-                    <option value="1">7</option>
-                    <option value="1">8</option>
-                    <option value="1">9</option>
-                </select>
-                <input type="submit" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-8.jpg">
-            <p class="items1">Nike Air Max Alpha</p>
-            <div class="products1">
-                <p class="items2">11,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
-                    <option value="1">6</option>
-                    <option value="1">7</option>
-                    <option value="1">8</option>
-                    <option value="1">9</option>
-                </select>
-                <input type="submit" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-9.jpg">
-            <p class="items1">Tiempo Legend 8 Club</p>
-            <div class="products1">
-                <p class="items2">15,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
-                    <option value="1">6</option>
-                    <option value="1">7</option>
-                    <option value="1">8</option>
-                    <option value="1">9</option>
-                </select>
-                <input type="submit" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-10.jpg">
-            <p class="items1">Puma Velocity Nitro 2 </p>
-            <div class="products1">
-                <p class="items2">21,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
-            <form action="#">
-                <label>Size</label><select>
-                    <option value="1">6</option>
-                    <option value="1">7</option>
-                    <option value="1">8</option>
-                    <option value="1">9</option>
-                </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="nike12" value="Add To Cart">
             </form>
         </div>
     </div>
@@ -209,86 +112,76 @@
         <div class="items">
             <img src="./Images/items/c2.webp">
             <p class="items1">Crocs</p>
-            <div class="products1">
                 <p class="items2">4,500 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="crocs_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="crocs" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/c4.webp">
             <p class="items1">Puma Men Outstretch V2</p>
-            <div class="products1">
                 <p class="items2">6,900 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="pumav2_size"> 
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="pumav2" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/c3.webp">
             <p class="items1">Puma Men Softride </p>
-            <div class="products1">
                 <p class="items2">6,950 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="pumasoft_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="pumasoft" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/w.webp">
             <p class="items1">Denill White Heels</p>
-            <div class="products1">
                 <p class="items2">13,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="denillwhite_size">
                     <option value="1">5</option>
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="denillwhite" value="Add To Cart">
             </form>
         </div>
         <div class="items">
             <img src="./Images/items/w2.webp">
             <p class="items1">Denill Black Heels</p>
-            <div class="products1">
                 <p class="items2">10,000 &#x20B9;</p>
-                <button type="submit">Add To Wishlist</button>
-            </div>
             <form action="#">
-                <label>Size</label><select>
+                <label>Size</label>
+                <select name="denillblack">
                     <option value="1">5</option>
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                 </select>
-                <input type="submit" value="Add To Cart">
+                <input type="submit" name="denillblack" value="Add To Cart">
             </form>
         </div>
     </div>
