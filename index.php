@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +24,7 @@
             <li><a href="#">About </a></li>
             <li><a href="#shopnow">Shop </a></li>
             <li><a href="#services">Services </a></li>
+
         </ul>
         <div class="icon">
             <a href="login.php"> <i class='fas fa-user-alt'></i></a>
@@ -32,26 +37,24 @@
     </div>
     <div class="shopnow" id="shopnow">SHOP NOW</div>
     <div class="products">
-        <div class="items">
-            <img src="./Images/items/product-1.jpg">
-            <p class="items1">Nike Downshifter 10</p>
+        <form action="" method="post">
+            <div class="items">
+                <img src="./Images/items/product-1.jpg">
+                <p class="items1">Nike Downshifter 10</p>
                 <p class="items2">14,000 &#x20B9;</p>
-            <form action="">
                 <label>Size</label>
                 <select name="nike10_size">
-                    <option value="1">6</option>
-                    <option value="1">7</option>
-                    <option value="1">8</option>
-                    <option value="1">9</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
                 </select>
                 <input type="submit" name="nike10" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-2.jpg">
-            <p class="items1">Nike Downshifter 11</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-2.jpg">
+                <p class="items1">Nike Downshifter 11</p>
                 <p class="items2">6,000 &#x20B9;</p>
-            <form action="">
                 <label>Size</label>
                 <select name="nike11_size">
                     <option value="1">6</option>
@@ -59,14 +62,12 @@
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
-                <input type="submit"  name="nike11" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-3.jpg">
-            <p class="items1">Nike Revolution 5</p>
+                <input type="submit" name="nike11" value="Add To Cart">
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-3.jpg">
+                <p class="items1">Nike Revolution 5</p>
                 <p class="items2">21,000 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
                 <select name="nike5_size">
                     <option value="1">6</option>
@@ -75,13 +76,11 @@
                     <option value="1">9</option>
                 </select>
                 <input type="submit" name="nike5" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-4.jpg">
-            <p class="items1">Nike Revolution 6</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-4.jpg">
+                <p class="items1">Nike Revolution 6</p>
                 <p class="items2">8,000 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
                 <select name="nike6_size">
                     <option value="1">6</option>
@@ -90,30 +89,24 @@
                     <option value="1">9</option>
                 </select>
                 <input type="submit" name="nike6" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/product-5.jpg">
-            <p class="items1">Nike Downshifter 12</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-5.jpg">
+                <p class="items1">Nike Downshifter 12</p>
                 <p class="items2">12,000 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
-                <select name="nike12_size" >
+                <select name="nike12_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
                 <input type="submit" name="nike12" value="Add To Cart">
-            </form>
-        </div>
-    </div>
-    <div class="products">
-        <div class="items">
-            <img src="./Images/items/c2.webp">
-            <p class="items1">Crocs</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/c2.webp">
+                <p class="items1">Crocs</p>
                 <p class="items2">4,500 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
                 <select name="crocs_size">
                     <option value="1">6</option>
@@ -122,28 +115,24 @@
                     <option value="1">9</option>
                 </select>
                 <input type="submit" name="crocs" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/c4.webp">
-            <p class="items1">Puma Men Outstretch V2</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/c4.webp">
+                <p class="items1">Puma Men Outstretch V2</p>
                 <p class="items2">6,900 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
-                <select name="pumav2_size"> 
+                <select name="pumav2_size">
                     <option value="1">6</option>
                     <option value="1">7</option>
                     <option value="1">8</option>
                     <option value="1">9</option>
                 </select>
                 <input type="submit" name="pumav2" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/c3.webp">
-            <p class="items1">Puma Men Softride </p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/c3.webp">
+                <p class="items1">Puma Men Softride </p>
                 <p class="items2">6,950 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
                 <select name="pumasoft_size">
                     <option value="1">6</option>
@@ -152,13 +141,11 @@
                     <option value="1">9</option>
                 </select>
                 <input type="submit" name="pumasoft" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/w.webp">
-            <p class="items1">Denill White Heels</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/w.webp">
+                <p class="items1">Denill White Heels</p>
                 <p class="items2">13,000 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
                 <select name="denillwhite_size">
                     <option value="1">5</option>
@@ -167,13 +154,11 @@
                     <option value="1">8</option>
                 </select>
                 <input type="submit" name="denillwhite" value="Add To Cart">
-            </form>
-        </div>
-        <div class="items">
-            <img src="./Images/items/w2.webp">
-            <p class="items1">Denill Black Heels</p>
+            </div>
+            <div class="items">
+                <img src="./Images/items/w2.webp">
+                <p class="items1">Denill Black Heels</p>
                 <p class="items2">10,000 &#x20B9;</p>
-            <form action="#">
                 <label>Size</label>
                 <select name="denillblack">
                     <option value="1">5</option>
@@ -182,8 +167,8 @@
                     <option value="1">8</option>
                 </select>
                 <input type="submit" name="denillblack" value="Add To Cart">
-            </form>
-        </div>
+            </div>
+        </form>
     </div>
     <div class="shopnow" id="services">Services</div>
     <div class="services">
@@ -209,5 +194,26 @@
         </div>
     </div>
 </body>
+<?php
+
+$conn = mysqli_connect('localhost', 'root', '', 'jai');
+
+if (isset($_POST['nike10'])) {
+    $name = 'Nike Downshifter 10';
+    $size = $_POST['nike10_size'];
+    $price = 14000;
+    $email = $_SESSION['email'];
+
+    mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+
+?>
 
 </html>
