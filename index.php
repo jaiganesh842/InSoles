@@ -28,6 +28,7 @@ session_start();
         </ul>
         <div class="icon">
             <a href="login.php"> <i class='fas fa-user-alt'></i></a>
+            <a href="logout.php">logout</a>
             <a href="#"><i class="fa-regular fa-heart"></i></a>
             <a href="./cart.php"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
         </div>
