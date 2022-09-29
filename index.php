@@ -29,7 +29,7 @@ session_start();
         <div class="icon">
             <a href="login.php"> <i class='fas fa-user-alt'></i></a>
             <a href="#"><i class="fa-regular fa-heart"></i></a>
-            <a href="#"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+            <a href="./cart.php"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
         </div>
     </nav>
     <div class="sec1">
