@@ -37,7 +37,7 @@ session_start();
     </div>
     <div class="shopnow" id="shopnow">SHOP NOW</div>
     <div class="products">
-        <form action="" method="post">
+        <form action="" method="post" id="flexcontainer">
             <div class="items">
                 <img src="./Images/items/product-1.jpg">
                 <p class="items1">Nike Downshifter 10</p>
@@ -196,7 +196,7 @@ session_start();
 </body>
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'jai');
+$conn = mysqli_connect('localhost', 'root', '', 'insoles');
 
 if (isset($_POST['nike10'])) {
     $name = 'Nike Downshifter 10';
@@ -208,7 +208,7 @@ if (isset($_POST['nike10'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-    <script>
+     <script>
         window.location.href = './index.php';
     </script>
 <?php

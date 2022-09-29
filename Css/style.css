@@ -3,6 +3,10 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 nav{
     position: fixed;
     width: 1872px;
@@ -56,20 +60,16 @@ nav .logo span{
 .slider{
     width: 1872px;
     height:650px;
-    
 }
 .products{
-    width: 1872px;
-    height:500px;
-    display:flex;
+    overflow: hidden;
+    padding: 15px;
+    width: fit-content;
     background-color: rgb(242, 248, 248);
 }
 .items{
     width:340px;
     height:480px;
-    background-color: rgb(242, 248, 248);
-    margin-left:30px;
-    margin-top:30px;
     border-radius:10px;
 }
 
@@ -90,7 +90,7 @@ nav .logo span{
 .items2{
     font-size:25px;
     margin-left:20px;
-    margin-top:20px;
+    margin-top:5px;
 }
 .items button{
     font-size:18px;
@@ -99,7 +99,6 @@ nav .logo span{
     width: 150px;
     border-radius:20px;
     color: rgb(0, 0, 0);
-    
 }
 .items button:hover{
     background-color:rgb(108, 203, 237);
@@ -118,6 +117,7 @@ nav .logo span{
     font-size:23px;
     margin-left:10px;
     background-color: rgba(0, 0, 0, 0);
+    margin-top:10px;
 }
 .items select option{
     font-size:20px;
@@ -147,13 +147,15 @@ nav .logo span{
 .shopnow{
     text-align:center;
     font-size:50px;
-    margin-top:10px;
-    margin-bottom:20px;
+    background-color: rgb(242, 248, 248);
+
 }
 .services{
-    width: 1872px;
+    width: 100vw;
+    height:100px;
     display:flex;
-    padding-left:300px;
+    padding-left:200px;
+    background-color: rgb(242, 248, 248);
 }
 .services1 p{
 margin-top:-80px;
@@ -163,11 +165,13 @@ font-size:20px;
 font-weight: bold;
 letter-spacing:2px;
 word-spacing:10px;
+
 }
 .services1 span{
     margin-left:130px;
 }
 .circle{
+    margin-top:20px;
     width:100px;
     height:100px;
     border-radius:50px;
@@ -176,5 +180,6 @@ word-spacing:10px;
     padding-top:20px;
     color: rgb(255, 255, 255);
     font-size:50px;
+    margin-left:20px;
 }
 
