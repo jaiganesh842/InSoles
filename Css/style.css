@@ -114,7 +114,7 @@ nav .logo span{
 }
 .cart{
     font-size:18px;
-    margin-left:18px;
+    margin-left:5px;
     width: 150px;
     height:40px;
     border-radius:20px;
@@ -131,7 +131,7 @@ nav .logo span{
 }
 .wishlist{
     font-size:16px;
-    margin-left:50px;
+    margin-left:60px;
     width: 140px;
     height:30px;
     border-radius:20px;
@@ -184,4 +184,105 @@ word-spacing:10px;
     font-size:50px;
     margin-left:20px;
 }
+@media screen and (max-width:1540px){
+    nav{
+        width: 100vw;
+        height: 70px;
+        margin-top:-20px;
+    }
+    nav ul li a{
+        font-size:13px;
+        padding-left:60px;
+    }
+    nav .logo{
+        margin-left:-100px;
+        margin-top:-10px;
+        font-size:25px;
+        font-weight: 500;
+    } 
+    nav .logo span{
+        font-size:30px;
+    }
+    .icon a{
+        font-size:18px;
+    }
+    .slider{
+        width: 100vw;
+        height:550px;
+    }
+    .products{
+        overflow-x:hidden ;
+        width: 100vw;
+        height:fit-content;
+    }
+    .items{
+        width:250px;
+        height:330px;
+    }
+    .items img{
+        width:250px;
+        height:180px;
+    }
+    .items img:hover{
+        height:185px;
+    }
+    .items1{
+        font-size:20px;
+    }
+    .items2{
+        text-align: center;
+        font-size:20px;
+    }
+    .items label{
+        margin-left:20px;
+        font-size:20px;
+    }
+    .items select{
+        font-size:20px;
+    }
+    .cart{
+        font-size:16px;
+        width: 125px;
+        height:30px;
+    }
+    
+    .cart:hover{
+        width: 123px;
+        height:33px;
+    }
+    .items select option{
+        font-size:16px;
+    }
+    .shopnow{
+        font-size: 40px;
+        width: 100vw;
+    }
+    .services{
+        width: 100vw;
+    }
+    .circle{
+        width:70px;
+        height:70px;
+        font-size:30px;
+    }
+    .services1 p{
+    margin-top:-60px;
+    margin-left:100px;
+    font-size:20px;
+    }
+    .services1 span{
+        margin-left:100px;
+    }
+    
+    #flexcontainer{
+        overflow-x: hidden;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+    }
+    
+    
 

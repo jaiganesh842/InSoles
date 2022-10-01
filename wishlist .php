@@ -18,18 +18,7 @@ $query=mysqli_query($conn,"SELECT * from `wishlist` where `email`='$_SESSION[ema
 <?php
 
 while($row=mysqli_fetch_array($query)){
-    
-
-
-    // echo "<h1>" . $row['id']. "</h1><br/>";
-    // echo "<h1>" . $row['product_name']. "</h1><br/>";
-    // echo "<h1>" . $row['email']. "</h1><br/>";
-    // echo "<h1>" . $row['price']. "</h1><br/>";
-    // echo "<h1>" . $row['size']. "</h1><br/>";
     $id=$row['id'];
-    // $product_name=$row['product_name'];
-    // $email=$row['email'];
-    // $price=$row['price'];
     $size=$row['size'];
     ?>
 
