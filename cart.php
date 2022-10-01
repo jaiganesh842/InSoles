@@ -3,7 +3,6 @@ session_start();
 $conn = mysqli_connect('localhost','root','','insoles');
 $query=mysqli_query($conn,"SELECT * from `cart` where `email`='$_SESSION[email]'; ");
 
-
 ?>
 
 <!DOCTYPE html>

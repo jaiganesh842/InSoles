@@ -24,11 +24,10 @@ session_start();
             <li><a href="#">About </a></li>
             <li><a href="#shopnow">Shop </a></li>
             <li><a href="#services">Services </a></li>
-
         </ul>
         <div class="icon">
             <a href="login.php"> <i class='fas fa-user-alt'></i></a>
-            <a href="logout.php">logout</a>
+            <a style="text-decoration:none;" href="logout.php">logout</a>
             <a href="./wishlist .php"><i class="fa-regular fa-heart"></i></a>
             <a href="./cart.php"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
         </div>
@@ -50,8 +49,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="nike10" value="Add To Cart">
-                <input type="submit" name="nike10w" value="Add To Wishlist">
+                <input class="cart" type="submit" name="nike10" value="Add To Cart">
+                <input class="wishlist" type="submit" name="nike10w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/product-2.jpg">
@@ -64,8 +63,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="nike11" value="Add To Cart">
-                <input type="submit" name="nike11w" value="Add To Wishlist">
+                <input class="cart"  type="submit" name="nike11" value="Add To Cart">
+                <input class="wishlist"  type="submit" name="nike11w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/product-3.jpg">
@@ -78,8 +77,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="nike5" value="Add To Cart">
-                <input type="submit" name="nike5w" value="Add To Wishlist">
+                <input class="cart" type="submit" name="nike5" value="Add To Cart">
+                <input class="wishlist" type="submit" name="nike5w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/product-4.jpg">
@@ -92,8 +91,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="nike6" value="Add To Cart">
-                <input type="submit" name="nike6w" value="Add To Wishlist">
+                <input class="cart" type="submit" name="nike6" value="Add To Cart">
+                <input class="wishlist" type="submit" name="nike6w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/product-5.jpg">
@@ -106,8 +105,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="nike12" value="Add To Cart">
-                <input type="submit" name="nike12w" value="Add To Wishlist">
+                <input class="cart" type="submit" name="nike12" value="Add To Cart">
+                <input class="wishlist" type="submit" name="nike12w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/c2.webp">
@@ -120,8 +119,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="crocs" value="Add To Cart">
-                <input type="submit" name="crocsw" value="Add To Wishlist">
+                <input class="cart" type="submit" name="crocs" value="Add To Cart">
+                <input class="wishlist" type="submit" name="crocsw" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/c4.webp">
@@ -134,8 +133,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="pumav2" value="Add To Cart">
-                <input type="submit" name="pumav2w" value="Add To Wishlist">
+                <input class="cart" type="submit" name="pumav2" value="Add To Cart">
+                <input class="wishlist" type="submit" name="pumav2w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/c3.webp">
@@ -148,8 +147,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input type="submit" name="pumasoft" value="Add To Cart">
-                <input type="submit" name="pumasoftw" value="Add To Wishlist">
+                <input class="cart" type="submit" name="pumasoft" value="Add To Cart">
+                <input class="wishlist" type="submit" name="pumasoftw" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/w.webp">
@@ -162,8 +161,8 @@ session_start();
                     <option value="7">7</option>
                     <option value="8">8</option>
                 </select>
-                <input type="submit" name="denillwhite" value="Add To Cart">
-                <input type="submit" name="denillwhitew" value="Add To Wishlist">
+                <input class="cart" type="submit" name="denillwhite" value="Add To Cart">
+                <input class="wishlist" type="submit" name="denillwhitew" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/w2.webp">
@@ -176,8 +175,8 @@ session_start();
                     <option value="7">7</option>
                     <option value="8">8</option>
                 </select>
-                <input type="submit" name="denillblack" value="Add To Cart">
-                <input type="submit" name="denillblackw" value="Add To Wishlist">
+                <input class="cart" type="submit" name="denillblack" value="Add To Cart">
+                <input class="wishlist" type="submit" name="denillblackw" value="Add To Wishlist">
             </div>
         </form>
     </div>

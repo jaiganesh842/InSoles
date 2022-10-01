@@ -12,7 +12,7 @@ nav{
     width: 1872px;
     height: 90px;
     display: flex;
-    padding:40px 200px;
+    padding:40px 150px;
     transition:0.6s;
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -49,7 +49,7 @@ nav .logo span{
     font-size:50px;
 }
 .icon a{
-    padding-left:50px;
+    padding-left:30px;
     color: black;
     font-size:20px;
 }
@@ -92,21 +92,6 @@ nav .logo span{
     margin-left:20px;
     margin-top:5px;
 }
-.items button{
-    font-size:18px;
-    margin-left:20px;
-    margin-top:15px;
-    width: 150px;
-    border-radius:20px;
-    color: rgb(0, 0, 0);
-}
-.items button:hover{
-    background-color:rgb(108, 203, 237);
-    color: rgb(0, 0, 0);
-    width:155px;
-    height:45px;
-    transition:0.5s;
-}
 .items form{
     margin-top: 30px;
     margin-left:20px;
@@ -127,7 +112,7 @@ nav .logo span{
 .items label{
     font-size:25px;
 }
-.items input{
+.cart{
     font-size:18px;
     margin-left:18px;
     width: 150px;
@@ -137,18 +122,35 @@ nav .logo span{
     word-spacing:5px;
     color: rgb(0, 0, 0);
 }
-.items input:hover{
+.cart:hover{
     background-color:rgb(108, 203, 237);
     color: rgb(0, 0, 0);
     width:155px;
     height:45px;
     transition:0.5s;
 }
+.wishlist{
+    font-size:16px;
+    margin-left:50px;
+    width: 140px;
+    height:30px;
+    border-radius:20px;
+    margin-top:10px;
+    word-spacing:5px;
+    color: rgb(0, 0, 0); 
+}
+.wishlist:hover{
+    background-color:rgb(108, 203, 237);
+    color: rgb(0, 0, 0);
+    width:145px;
+    height:30px;
+    transition:0.5s;
+}
+
 .shopnow{
     text-align:center;
-    font-size:50px;
+    font-size:10px;
     background-color: rgb(242, 248, 248);
-
 }
 .services{
     width: 100vw;
