@@ -20,7 +20,7 @@ session_start();
         <a herf="#" class="logo"><span>In</span>soles</a>
         <ul>
             <li><a href="#">Home </a></li>
-            <li><a href="#">About </a></li>
+            <li><a href="#about">About </a></li>
             <li><a href="#shopnow">Shop </a></li>
             <li><a href="#services">Services </a></li>
         </ul>
@@ -62,8 +62,8 @@ session_start();
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart"  type="submit" name="nike11" value="Add To Cart">
-                <input class="wishlist"  type="submit" name="nike11w" value="Add To Wishlist">
+                <input class="cart" type="submit" name="nike11" value="Add To Cart">
+                <input class="wishlist" type="submit" name="nike11w" value="Add To Wishlist">
             </div>
             <div class="items">
                 <img src="./Images/items/product-3.jpg">
@@ -202,6 +202,49 @@ session_start();
             <span>Get Quick Support</span>
         </div>
     </div>
+    <div style="background-color:black;text-align:center;color:white;" id="about"><h1>About Us</h1></div>
+    <div class="aboutus" id="aboutus">
+        <div class="aboutus1">
+            <div class="logo2">
+                <div class="logo3">
+                    <p>In<span class="logo1">soles</span></p>
+                </div>
+                <p class="make">This is simple website to buy shoes and sandals,Make sure your internet is conneced and please login before adding products to cart if you are new to this page create a new account to move further in this website</p><br>
+                <p class="make">Add : SDMIT ujire</p>
+                <p class="make">Call : 6361577690</p>
+                <p class="make">Email : jaiganeshkn842@gmail.com</p>
+            </div>
+            <div class="online">
+                <h4>Online Platforms</h4><br><br>
+                <a href="#">Brands Associated</a><br><br>
+                <a href="#">Purchanse Guide</a><br><br>
+                <a href="#">Events</a><br><br>
+                <a href="#">Insturctor Profile</a><br><br>
+                <a href="#">Charities</a><br><br>
+                <a href="#">Help</a><br><br>
+            </div>
+            <div class="online">
+                <h4>Links</h4><br><br>
+                <a href="#">Contact Us</a><br><br>
+                <a href="#">Gallery</a><br><br>
+                <a href="#">News & Articles</a><br><br>
+                <a href="#">FAQ's</a><br><br>
+                <a href="#">Login/Registration</a><br><br>
+                <a href="#">Comming Soon</a><br><br>
+            </div>
+        </div>
+        <div class="links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <hr>
+        <div class="copyrights">
+            <h5>Copyright 2022 All Rights Reserved by <a href="https://github.com/jaiganesh842">Jaiganesh</a></h5>
+        </div>
+    </div>
 </body>
 <?php
 
@@ -217,7 +260,7 @@ if (isset($_POST['nike10'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -232,7 +275,7 @@ if (isset($_POST['nike11'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -247,7 +290,7 @@ if (isset($_POST['nike5'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -262,7 +305,7 @@ if (isset($_POST['nike6'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -277,7 +320,7 @@ if (isset($_POST['nike12'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -292,7 +335,7 @@ if (isset($_POST['crocs'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -307,7 +350,7 @@ if (isset($_POST['pumav2'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -322,7 +365,7 @@ if (isset($_POST['pumasoft'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -337,7 +380,7 @@ if (isset($_POST['denillwhite'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -352,7 +395,7 @@ if (isset($_POST['denillblack'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -367,7 +410,7 @@ if (isset($_POST['nike10w'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -382,7 +425,7 @@ if (isset($_POST['nike11w'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -397,7 +440,7 @@ if (isset($_POST['nike5w'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -412,7 +455,7 @@ if (isset($_POST['nike6w'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -427,7 +470,7 @@ if (isset($_POST['nike12w'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -442,7 +485,7 @@ if (isset($_POST['crocsw'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -457,7 +500,7 @@ if (isset($_POST['pumav2w'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -472,7 +515,7 @@ if (isset($_POST['pumasoftw'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -487,7 +530,7 @@ if (isset($_POST['denillwhitew'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
@@ -502,10 +545,11 @@ if (isset($_POST['denillblackw'])) {
      VALUES ('$name','$email','$price','$size');");
 
 ?>
-     <script>
+    <script>
         window.location.href = './index.php';
     </script>
 <?php
 }
 ?>
+
 </html>
