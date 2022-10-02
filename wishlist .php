@@ -50,36 +50,31 @@ while($row=mysqli_fetch_array($query)){
 
 <?php
 echo "<form method='post' action=''>";
-echo "<h3>Product_Id : "; echo  $row['id']; echo "</h3>";
+echo "<h3 name='id'>Product_Id : "; echo  $row['id']; echo "</h3>";
 echo "<h3>Product_Name : "; echo $row['product_name']; echo "</h3>";
 echo "<h3>User_Id : "; echo $row['email']; echo "</h3>";
 echo "<h3>Price : "; echo $row['price']; echo "</h3>";
 echo "<h3>Your shoe size is : "; echo $row['size']; echo "</h3>";
-echo "<h3>If you want to change your shoe size, select the below</h3>";
-echo "<select class='sec' name='size' value='<?php echo $size; ?>'>";
-  echo "<option value='6'>6</option>";
-  echo "<option value='7'>7</option>";
-  echo "<option value='8'>8</option>";
-  echo "<option value='9'>9</option>";
-echo "</select>";
 
-echo "<input class='all' type='submit' name='update' value='Update Size'>";
 
 echo "</form>";
 
 ?>
-    <a href="deltwishlist.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Remove from wishlist'  ?></button></a><?php
+    <a href="deltwishlist.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Remove from wishlist'  ?></button></a>
+    <a href="updatewishlist.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Update from wishlist'  ?></button></a>
 
-}
+ <?php
+
+   }
 
 
-?>
+   ?>
 
 
 <?php 
 if(isset($_POST['update'])){
 
-$update=mysqli_query($conn,"UPDATE `wishlist` SET `size`=$_POST[size] WHERE `id`=$id");
+$update=mysqli_query($conn,"UPDATE `wishlist` SET `size`=$_POST[size] WHERE `id`=$_POST[id]");
 echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>
