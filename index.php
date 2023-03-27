@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+if (!isset($_SESSION['email'])) {
+    // If the user is not logged in, redirect them to the login page
+    header("Location: login.php");
+    exit();
+}
 ?>
 
 <!DOCTYPE html>
