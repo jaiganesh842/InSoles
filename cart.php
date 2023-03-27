@@ -3,7 +3,7 @@ session_start();
 
 // check if email session variable is set
 if(!isset($_SESSION['email'])) {
-    echo "User not logged in";
+    echo "Please Login before adding to cart";
     exit();
 }
 
