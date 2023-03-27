@@ -1,9 +1,14 @@
 <?php
 session_start();
+
+// check if email session variable is set
+if(!isset($_SESSION['email'])) {
+    echo "User not logged in";
+    exit();
+}
+
 $conn = mysqli_connect('localhost','root','','insoles');
 $query=mysqli_query($conn,"SELECT * from `cart` where `email`='$_SESSION[email]'; ");
-
-
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +51,7 @@ $query=mysqli_query($conn,"SELECT * from `cart` where `email`='$_SESSION[email]'
 while($row=mysqli_fetch_array($query)){
     $id=$row['id'];
     $size=$row['size'];
-    ?>
+?>
 
 <?php
 echo "<form method='post' action=''>";
@@ -55,26 +60,17 @@ echo "<h3>Product_Name : "; echo $row['product_name']; echo "</h3>";
 echo "<h3>User_Id : "; echo $row['email']; echo "</h3>";
 echo "<h3>Price : "; echo $row['price']; echo "</h3>";
 echo "<h3>Your shoe size is : "; echo $row['size']; echo "</h3>";
-
-
 echo "</form>";
-
 ?>
-    <a href="deltcart.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Remove from cart'  ?></button></a>
-    <a href="updatecart.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Update from cart'  ?></button></a>
- <?php
+    
+<a href="deltcart.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Remove from cart'  ?></button></a>
+<a href="updatecart.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Update from cart'  ?></button></a>
+<?php
+}
 
-   }
-
-
-   ?>
-
-
-<?php 
 if(isset($_POST['update'])){
-
-$update=mysqli_query($conn,"UPDATE `cart` SET `size`=$_POST[size] WHERE `id`=$_POST[id]");
-echo "<meta http-equiv='refresh' content='0'>";
+    $update=mysqli_query($conn,"UPDATE `cart` SET `size`=$_POST[size] WHERE `id`=$_POST[id]");
+    echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>
 
