@@ -246,6 +246,7 @@ if (!isset($_SESSION['email'])) {
             <a href="https://www.instagram.com/jai_ganesh_7/"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.youtube.com/channel/UC7c4Z2ZlMsLg2smy0taW3kQ"><i class="fa-brands fa-youtube"></i></a>
         </div>
+        
         <hr>
         <div class="copyrights">
             <h5>Copyright 2022 All Rights Reserved by <a href="https://github.com/jaiganesh842">Jaiganesh</a></h5>
