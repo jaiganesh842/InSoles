@@ -6,6 +6,7 @@ $query=mysqli_query($conn,"SELECT * from `cart` where `email`='$_SESSION[email]'
 
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

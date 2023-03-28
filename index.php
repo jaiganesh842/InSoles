@@ -263,6 +263,7 @@ if (isset($_POST['nike10'])) {
     $price = 14000;
     $email = $_SESSION['email'];
 
+    
     mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
      VALUES ('$name','$email','$price','$size');");
 
