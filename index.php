@@ -240,11 +240,11 @@ if (!isset($_SESSION['email'])) {
             </div>
         </div>
         <div class="links">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100025378621761"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/jai-ganesh-b6aaa1227/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/Jai_ganesh_07"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/jai_ganesh_7/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC7c4Z2ZlMsLg2smy0taW3kQ"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <hr>
         <div class="copyrights">
