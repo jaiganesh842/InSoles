@@ -54,7 +54,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="nike10" value="Add To Cart">
+                <input class="cart" type="submit" name="nike10" value="BUY NOW">
                 <input class="wishlist" type="submit" name="nike10w" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -68,7 +68,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="nike11" value="Add To Cart">
+                <input class="cart" type="submit" name="nike11" value="BUY NOW">
                 <input class="wishlist" type="submit" name="nike11w" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -82,7 +82,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="nike5" value="Add To Cart">
+                <input class="cart" type="submit" name="nike5" value="BUY NOW">
                 <input class="wishlist" type="submit" name="nike5w" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -96,7 +96,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="nike6" value="Add To Cart">
+                <input class="cart" type="submit" name="nike6" value="BUY NOW">
                 <input class="wishlist" type="submit" name="nike6w" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -110,7 +110,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="nike12" value="Add To Cart">
+                <input class="cart" type="submit" name="nike12" value="BUY NOW">
                 <input class="wishlist" type="submit" name="nike12w" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -124,7 +124,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="crocs" value="Add To Cart">
+                <input class="cart" type="submit" name="crocs" value="BUY NOW">
                 <input class="wishlist" type="submit" name="crocsw" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -138,7 +138,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="pumav2" value="Add To Cart">
+                <input class="cart" type="submit" name="pumav2" value="BUY NOW">
                 <input class="wishlist" type="submit" name="pumav2w" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -152,7 +152,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="8">8</option>
                     <option value="9">9</option>
                 </select>
-                <input class="cart" type="submit" name="pumasoft" value="Add To Cart">
+                <input class="cart" type="submit" name="pumasoft" value="BUY NOW">
                 <input class="wishlist" type="submit" name="pumasoftw" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -166,7 +166,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="7">7</option>
                     <option value="8">8</option>
                 </select>
-                <input class="cart" type="submit" name="denillwhite" value="Add To Cart">
+                <input class="cart" type="submit" name="denillwhite" value="BUY NOW">
                 <input class="wishlist" type="submit" name="denillwhitew" value="Add To Wishlist">
             </div>
             <div class="items">
@@ -180,7 +180,7 @@ if (!isset($_SESSION['email'])) {
                     <option value="7">7</option>
                     <option value="8">8</option>
                 </select>
-                <input class="cart" type="submit" name="denillblack" value="Add To Cart">
+                <input class="cart" type="submit" name="denillblack" value="BUY NOW">
                 <input class="wishlist" type="submit" name="denillblackw" value="Add To Wishlist">
             </div>
         </form>
