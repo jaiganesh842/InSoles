@@ -38,9 +38,13 @@ $query=mysqli_query($conn,"SELECT * from `wishlist` where `email`='$_SESSION[ema
             background-color:rgb(108, 203, 237);
             color: rgb(0, 0, 0);
          }
+         .wip{
+            text-align: center;
+         }
     </style>
 </head>
 <body>
+<h1 class="wip" >WELCOME TO WISHLIST</h1>
 <?php
 
 while($row=mysqli_fetch_array($query)){

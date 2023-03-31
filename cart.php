@@ -39,9 +39,13 @@ $query=mysqli_query($conn,"SELECT * from `cart` where `email`='$_SESSION[email]'
             background-color:rgb(108, 203, 237);
             color: rgb(0, 0, 0);
          }
+         .car{
+            text-align: center;
+         }
     </style>
 </head>
 <body>
+   <h1 class="car" >WELCOME TO CART</h1>
 <?php
 
 while($row=mysqli_fetch_array($query)){
