@@ -3,9 +3,9 @@ session_start();
 $conn = mysqli_connect('localhost','root','','insoles');
 $query=mysqli_query($conn,"SELECT * from `cart` where `email`='$_SESSION[email]'; ");
 
+$total_price = 0;
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -61,6 +61,7 @@ echo "<h3>User_Id : "; echo $row['email']; echo "</h3>";
 echo "<h3>Price : "; echo $row['price']; echo "</h3>";
 echo "<h3>Your shoe size is : "; echo $row['size']; echo "</h3>";
 
+$total_price += $row['price'];
 
 echo "</form>";
 
@@ -71,6 +72,7 @@ echo "</form>";
 
    }
 
+   echo "<h3>Total Price: " . $total_price . "</h3>";
 
    ?>
 

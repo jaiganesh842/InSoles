@@ -3,6 +3,7 @@ session_start();
 $conn = mysqli_connect('localhost','root','','insoles');
 $query=mysqli_query($conn,"SELECT * from `wishlist` where `email`='$_SESSION[email]'; ");
 
+$total_price = 0; // Initialize total price variable to 0
 
 ?>
 
@@ -50,6 +51,9 @@ $query=mysqli_query($conn,"SELECT * from `wishlist` where `email`='$_SESSION[ema
 while($row=mysqli_fetch_array($query)){
     $id=$row['id'];
     $size=$row['size'];
+
+    // Add the price of the current item to the total price
+    $total_price += $row['price'];
     ?>
 
 <?php
@@ -71,6 +75,8 @@ echo "</form>";
 
    }
 
+   // Print the total price
+   echo "<h3>Total Price: ".$total_price."</h3>";
 
    ?>
 
