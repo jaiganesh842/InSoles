@@ -42,6 +42,9 @@ $total_price = 0; // Initialize total price variable to 0
          .wip{
             text-align: center;
          }
+         .center-text{
+            text-align: center;
+         }
     </style>
 </head>
 <body>
@@ -58,26 +61,30 @@ while($row=mysqli_fetch_array($query)){
 
 <?php
 echo "<form method='post' action=''>";
+echo "<div class='center-text'>";
 echo "<h3 name='id'>Product_Id : "; echo  $row['id']; echo "</h3>";
 echo "<h3>Product_Name : "; echo $row['product_name']; echo "</h3>";
 echo "<h3>User_Id : "; echo $row['email']; echo "</h3>";
 echo "<h3>Price : "; echo $row['price']; echo "</h3>";
 echo "<h3>Your shoe size is : "; echo $row['size']; echo "</h3>";
-
+echo "</div>";
 
 echo "</form>";
 
 ?>
+<div class='center-text'>
     <a href="deltwishlist.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Remove from wishlist'  ?></button></a>
     <a href="updatewishlist.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Update from wishlist'  ?></button></a>
+    </div>
 
  <?php
 
    }
 
    // Print the total price
+   echo "<div class='center-text'>";
    echo "<h3>Total Price: ".$total_price."</h3>";
-
+   echo "</div>";
    ?>
 
 
