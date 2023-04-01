@@ -73,12 +73,16 @@ echo "</form>";
 <div class='center-text'>
     <a href="deltcart.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Remove from cart'  ?></button></a>
     <a href="updatecart.php?did=<?php echo $row['id']; ?>">  <button class='all' type="text/javascript"><?php echo 'Update from cart'  ?></button></a>
+    <hr>
+    <hr>
     </div>
  <?php
 
    }
    echo "<div class='center-text'>";
    echo "<h3>Total Price: " . $total_price . "</h3>";
+   echo "<hr>";
+   echo "<hr>";
    echo "</div>";
    ?>
 
