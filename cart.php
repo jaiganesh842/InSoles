@@ -64,7 +64,6 @@ echo "<h3>Product_Name : "; echo $row['product_name']; echo "</h3>";
 echo "<h3>User_Id : "; echo $row['email']; echo "</h3>";
 echo "<h3>Price : "; echo $row['price']; echo "</h3>";
 echo "<h3>Your shoe size is : "; echo $row['size']; echo "</h3>";
-
 $total_price += $row['price'];
 echo "</div>";
 echo "</form>";
