@@ -114,6 +114,76 @@ if (!isset($_SESSION['email'])) {
                 <input class="wishlist" type="submit" name="nike12w" value="Add To Wishlist">
             </div>
             <div class="items">
+                <img src="./Images/items/product-6.jpg">
+                <p class="items1">Fila Unisex Joggers</p>
+                <p class="items2">7,000 &#x20B9;</p>
+                <label>Size</label>
+                <select name="fila_size">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <input class="cart" type="submit" name="new1" value="BUY NOW">
+                <input class="wishlist" type="submit" name="new1w" value="Add To Wishlist">
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-7.jpg">
+                <p class="items1">Nike Women Joggers</p>
+                <p class="items2">3,000 &#x20B9;</p>
+                <label>Size</label>
+                <select name="nikewomen_size">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <input class="cart" type="submit" name="new2" value="BUY NOW">
+                <input class="wishlist" type="submit" name="new2w" value="Add To Wishlist">
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-8.jpg">
+                <p class="items1">Addidas Venom</p>
+                <p class="items2">4,500 &#x20B9;</p>
+                <label>Size</label>
+                <select name="Venom_size">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <input class="cart" type="submit" name="new3" value="BUY NOW">
+                <input class="wishlist" type="submit" name="new3w" value="Add To Wishlist">
+            </div>
+            <div class="items">
+                <img src="./Images/items/product-10.jpg">
+                <p class="items1">Puma Mid 5</p>
+                <p class="items2">13,000 &#x20B9;</p>
+                <label>Size</label>
+                <select name="Pumamid_size">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <input class="cart" type="submit" name="new4" value="BUY NOW">
+                <input class="wishlist" type="submit" name="new4w" value="Add To Wishlist">
+            </div>
+            <div class="items">
+                <img src="./Images/items/c5-1.png">
+                <p class="items1">Fila Canvas </p>
+                <p class="items2">1,000 &#x20B9;</p>
+                <label>Size</label>
+                <select name="filacanvas_size">
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <input class="cart" type="submit" name="new5" value="BUY NOW">
+                <input class="wishlist" type="submit" name="new5w" value="Add To Wishlist">
+            </div>
+            <div class="items">
                 <img src="./Images/items/c2.webp">
                 <p class="items1">Crocs</p>
                 <p class="items2">4,500 &#x20B9;</p>
@@ -183,6 +253,7 @@ if (!isset($_SESSION['email'])) {
                 <input class="cart" type="submit" name="denillblack" value="BUY NOW">
                 <input class="wishlist" type="submit" name="denillblackw" value="Add To Wishlist">
             </div>
+           
         </form>
     </div>
     <div class="shopnow" id="services">Services</div>
@@ -333,6 +404,86 @@ if (isset($_POST['nike12'])) {
     </script>
 <?php
 }
+if (isset($_POST['new1'])) {
+    $name = 'Fila Unisex Joggers';
+    $size = $_POST['fila_size'];
+    $price = 7000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new2'])) {
+    $name = 'Nike Women Joggers';
+    $size = $_POST['nikewomen_size'];
+    $price = 3000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new3'])) {
+    $name = 'Addidas Venom';
+    $size = $_POST['Venom_size'];
+    $price = 4500;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new4'])) {
+    $name = 'Puma Mid 5';
+    $size = $_POST['Pumamid_size'];
+    $price = 13000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new5'])) {
+    $name = 'Fila Canvas';
+    $size = $_POST['fila_size'];
+    $price = 1000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `cart`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
 if (isset($_POST['crocs'])) {
     $name = 'Crocs';
     $size = $_POST['crocs_size'];
@@ -474,6 +625,86 @@ if (isset($_POST['nike12w'])) {
     $price = 12000;
     $email = $_SESSION['email'];
 
+    mysqli_query($conn, "INSERT INTO `wishlist`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new1w'])) {
+    $name = 'Fila Unisex Joggers';
+    $size = $_POST['fila_size'];
+    $price = 7000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `wishlist`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new2w'])) {
+    $name = 'Nike Women Joggers';
+    $size = $_POST['nikewomen_size'];
+    $price = 3000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `wishlist`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new3w'])) {
+    $name = 'Addidas Venom';
+    $size = $_POST['Venom_size'];
+    $price = 4500;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `wishlist`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new4w'])) {
+    $name = 'Puma Mid 5';
+    $size = $_POST['Pumamid_size'];
+    $price = 13000;
+    $email = $_SESSION['email'];
+
+    
+    mysqli_query($conn, "INSERT INTO `wishlist`(`product_name`, `email`, `price`, `size`)
+     VALUES ('$name','$email','$price','$size');");
+
+?>
+    <script>
+        window.location.href = './index.php';
+    </script>
+<?php
+}
+if (isset($_POST['new5w'])) {
+    $name = 'Fila Canvas';
+    $size = $_POST['fila_size'];
+    $price = 1000;
+    $email = $_SESSION['email'];
+
+    
     mysqli_query($conn, "INSERT INTO `wishlist`(`product_name`, `email`, `price`, `size`)
      VALUES ('$name','$email','$price','$size');");
 
